@@ -1,0 +1,109 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors\DockColors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <sys:String x:Key="PinAutoHide">&#x44;</sys:String>
+    <sys:String x:Key="PinClose">&#x41;</sys:String>
+    <sys:String x:Key="PinDocMenu">&#x5A;</sys:String>
+    <sys:String x:Key="PinMenuLarge">&#x48;</sys:String>
+    <sys:String x:Key="PinMenuSmall">&#x53;</sys:String>
+
+    <!--<DrawingBrush x:Key="PinAutoHideGlyph" Viewbox="0,0,7,11" Viewport="0,0,7,11"
+                    TileMode="None" ViewportUnits="Absolute"
+                    ViewboxUnits="Absolute" RenderOptions.EdgeMode="Aliased">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_GlyphForegroundBrush}"
+                                Geometry="M 1 0 L 1 6 L 2 6 L 2 1 L 4 1 L 4 0 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_GlyphForegroundBrush}"
+                                Geometry="M 4 0 L 6 0 L 6 6 L 7 6 L 7 7 L 4 7 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_GlyphForegroundBrush}"
+                                Geometry="M 4 0 L 6 0 L 6 6 L 7 6 L 7 7 L 4 7 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_GlyphForegroundBrush}"
+                                Geometry="M 0 6 L 4 6 L 4 11 L 3 11 L 3 7 L 0 7 z" />
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <DrawingBrush x:Key="PinAutoHideGlyph_Active" Viewbox="0,0,7,11" Viewport="0,0,7,11"
+                          TileMode="None" ViewportUnits="Absolute"
+                          ViewboxUnits="Absolute" RenderOptions.EdgeMode="Aliased">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_FocusedGlyphForegroundBrush}"
+                                     Geometry="M 1 0 L 1 6 L 2 6 L 2 1 L 4 1 L 4 0 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_FocusedGlyphForegroundBrush}"
+                                     Geometry="M 4 0 L 6 0 L 6 6 L 7 6 L 7 7 L 4 7 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_FocusedGlyphForegroundBrush}"
+                                     Geometry="M 4 0 L 6 0 L 6 6 L 7 6 L 7 7 L 4 7 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_FocusedGlyphForegroundBrush}"
+                                     Geometry="M 0 6 L 4 6 L 4 11 L 3 11 L 3 7 L 0 7 z" />
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <DrawingBrush x:Key="PinAutoHideGlyph_InactiveMouseOver" Viewbox="0,0,7,11" Viewport="0,0,7,11"
+                          TileMode="None" ViewportUnits="Absolute"
+                          ViewboxUnits="Absolute" RenderOptions.EdgeMode="Aliased">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_InactiveGlyphForegroundBrush}"
+                                     Geometry="M 1 0 L 1 6 L 2 6 L 2 1 L 4 1 L 4 0 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_InactiveGlyphForegroundBrush}"
+                                     Geometry="M 4 0 L 6 0 L 6 6 L 7 6 L 7 7 L 4 7 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_InactiveGlyphForegroundBrush}"
+                                     Geometry="M 4 0 L 6 0 L 6 6 L 7 6 L 7 7 L 4 7 z" />
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_InactiveGlyphForegroundBrush}"
+                                     Geometry="M 0 6 L 4 6 L 4 11 L 3 11 L 3 7 L 0 7 z" />
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <DrawingBrush x:Key="PinCloseGlyph" Viewbox="0,0,10,8" Viewport="0,0,10,8" TileMode="None" ViewportUnits="Absolute" ViewboxUnits="Absolute" RenderOptions.EdgeMode="Aliased">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_GlyphForegroundBrush}"
+                                     Geometry="M 1 0 L 1 6 L 2 6 L 2 1 L 4 1 L 4 0 z" />
+
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+    
+    
+
+    <DrawingBrush x:Key="PinCloseGlyph_Active" Viewbox="0,0,10,8" Viewport="0,0,10,8" TileMode="None" ViewportUnits="Absolute" ViewboxUnits="Absolute" RenderOptions.EdgeMode="Aliased">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_FocusedGlyphForegroundBrush}"
+                                     Geometry="M 1 0 L 1 6 L 2 6 L 2 1 L 4 1 L 4 0 z" />
+
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <DrawingBrush x:Key="PinCloseGlyph_InactiveMouseOver" Viewbox="0,0,10,8" Viewport="0,0,10,8" TileMode="None" ViewportUnits="Absolute" ViewboxUnits="Absolute" RenderOptions.EdgeMode="Aliased">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="{StaticResource AnchorablePane_Title_InactiveGlyphForegroundBrush}"
+                                     Geometry="M 1 0 L 1 6 L 2 6 L 2 1 L 4 1 L 4 0 z" />
+
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>-->
+
+</ResourceDictionary>

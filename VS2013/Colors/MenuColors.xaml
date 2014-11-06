@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Separator -->
+    <SolidColorBrush x:Key="Menu_SeparatorBrush" Color="#BEC3CB" />
+    
+    <!-- Menu -->
+    <SolidColorBrush x:Key="MenuBar_BackgroundBrush" Color="#D6DBE9" />
+    
+    <!-- Submenu -->
+    <SolidColorBrush x:Key="Submenu_BackgroundBrush" Color="#EAF0FF" />
+    <SolidColorBrush x:Key="Submenu_BorderBrush" Color="#9BA7B7" />
+    
+    <!-- MenuItem -->
+    <SolidColorBrush x:Key="MenuItem_BackgroundBrush" Color="#D6DBE9" />
+    <SolidColorBrush x:Key="MenuItem_BorderBrush" Color="#D6DBE9" />
+    <SolidColorBrush x:Key="MenuItem_HighlightedBackgroundBrush" Color="#FDF4BF" />
+    <SolidColorBrush x:Key="MenuItem_HighlightedBorderBrush" Color="#E5C365" />
+    <SolidColorBrush x:Key="MenuItem_PopupOpenBorderBrush" Color="#9BA7B7" />
+    <SolidColorBrush x:Key="MenuItem_PopupOpenBackgroundBrush" Color="#EAF0FF" />
+    
+    <!-- Submenu Item -->
+    <SolidColorBrush x:Key="SubmenuItem_Glyph_BackgroundBrush" Color="#F2F4FE" />
+    <SolidColorBrush x:Key="SubmenuItem_BackgroundBrush" Color="#EAF0FF" />
+    <SolidColorBrush x:Key="SubmenuItem_DisabledForegroundBrush" Color="#808080" />
+    <SolidColorBrush x:Key="SubmenuItem_HighlightedBackgroundBrush" Color="#FDF4BF" />
+
+    <!-- Submenu Header Item -->
+    <SolidColorBrush x:Key="SubmenuHeaderItem_Glyph_BackgroundBrush" Color="#F2F4FE" />
+    <SolidColorBrush x:Key="SubmenuHeaderItem_BackgroundBrush" Color="#EAF0FF" />
+    <SolidColorBrush x:Key="SubmenuHeaderItem_DisabledForegroundBrush" Color="#808080" />
+    <SolidColorBrush x:Key="SubmenuHeaderItem_HighlightedBackgroundBrush" Color="#FDF4BF" />
+
+</ResourceDictionary>

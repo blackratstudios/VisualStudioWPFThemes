@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Anchorable Pane-->
+    <SolidColorBrush x:Key="AnchorablePane_Title_BackgroundBrush" Color="#4D6082" />
+    <SolidColorBrush x:Key="AnchorablePane_Title_ForegroundBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="AnchorablePane_Title_GlyphForegroundBrush" Color="#CED4DD" />
+    
+    <SolidColorBrush x:Key="AnchorablePane_Title_FocusedBackgroundBrush" Color="#FFF29D" />
+    <SolidColorBrush x:Key="AnchorablePane_Title_FocusedForegroundBrush" Color="#000000" />
+    <SolidColorBrush x:Key="AnchorablePane_Title_FocusedGlyphForegroundBrush" Color="#75633D" />
+
+    
+
+    <SolidColorBrush x:Key="AnchorablePane_TitleButton_HoverBackgroundBrush" Color="#FFFCF4" />
+    <SolidColorBrush x:Key="AnchorablePane_TitleButton_HoverBorderBrush" Color="#E5C365" />
+    
+    <!-- Glyph Brushes-->
+    <!-- Inactive -->
+    <SolidColorBrush x:Key="AnchorablePane_Title_InactiveGlyphForegroundBrush" Color="#CED4DD" />
+    <SolidColorBrush x:Key="AnchorablePane_Title_GlyphHoverForegroundBrush" Color="#000000" />
+
+    <!-- AnchorablePaneControl -->
+    <SolidColorBrush x:Key="AnchorablePaneControl_BackgroundBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="AnchorablePaneControl_BorderBrush" Color="#8E9BBC" />
+
+    <!-- AnchorablePane Tabs -->
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_BorderBrush" Color="#8E9BBC" />
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_BackgroundBrush" Color="#4D6082" />
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_ForegroundBrush" Color="#FFFFFF" />
+
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_SelectedBorderBrush" Color="#8E9BBC" />
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_SelectedInnerBorderBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_SelectedBackgroundBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_SelectedForegroundBrush" Color="#000000" />
+
+    <SolidColorBrush x:Key="AnchorablePaneTabItem_HoverBackgroundBrush" Color="#4B5C74" />
+    
+    <!-- Document -->
+    <SolidColorBrush x:Key="Document_BackgroundBrush" Color="#FFFFFF" />
+    
+    <SolidColorBrush x:Key="DocumentTab_BorderBrush" Color="#8E9BBC" />
+    <SolidColorBrush x:Key="DocumentTab_BackgroundBrush" Color="#364E6F" />
+    <SolidColorBrush x:Key="DocumentTab_ForegroundBrush" Color="#FFFFFF" />
+
+    <SolidColorBrush x:Key="DocumentTab_InactiveBackgroundBrush" Color="#4D6082" />
+
+    <SolidColorBrush x:Key="DocumentTab_ActiveBorderBrush" Color="#FFF29D" />
+    <SolidColorBrush x:Key="DocumentTab_ActiveBackgroundBrush" Color="#FFF29D" />
+    <SolidColorBrush x:Key="DocumentTab_ActiveForegroundBrush" Color="#000000" />
+
+    <SolidColorBrush x:Key="DocumentTab_HoverBackgroundBrush" Color="#5B7199" />
+</ResourceDictionary>

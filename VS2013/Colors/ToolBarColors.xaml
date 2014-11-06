@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="ToolBar_BackgroundBrush" Color="#CFD6E5" />
+    <SolidColorBrush x:Key="ToolBar_BorderBrush" Color="#DCE0EC" />
+    
+    <!-- Button -->
+    <SolidColorBrush x:Key="ToolBar_Button_BackgroundBrush" Color="#CFD6E5" />
+    <SolidColorBrush x:Key="ToolBar_Button_BorderBrush" Color="#CFD6E5" />
+    <SolidColorBrush x:Key="ToolBar_Button_HoverBackgroundBrush" Color="#FDF4BF" />
+    <SolidColorBrush x:Key="ToolBar_Button_HoverBorderBrush" Color="#E5C365" />
+    <SolidColorBrush x:Key="ToolBar_Button_PressedBackgroundBrush" Color="#FFF29D" />
+    <SolidColorBrush x:Key="ToolBar_Button_PressedBorderBrush" Color="#E5C365" />
+    
+    <!-- Toggle Button -->
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_BackgroundBrush" Color="#CFD6E5" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_BorderBrush" Color="#CFD6E5" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_MouseDownBackgroundBrush" Color="#FDF4BF" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_MouseDownBorderBrush" Color="#E5C365" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_HoverBackgroundBrush" Color="#FDF4BF" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_HoverBorderBrush" Color="#E5C365" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_ToggledBackgroundBrush" Color="#FDF4BF" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_ToggledBorderBrush" Color="#E5C365" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_ToggledHoverBackgroundBrush" Color="#FFFCF4" />
+    <SolidColorBrush x:Key="ToolBar_ToggleButton_ToggledHoverBorderBrush" Color="#E5C365" />
+    
+    <!-- Separator -->
+    <SolidColorBrush x:Key="ToolBar_Separator_BorderBrushLeft" Color="#8591A2" />
+    <SolidColorBrush x:Key="ToolBar_Separator_BorderBrushRight" Color="#D6DBE9" />
+    
+    <!-- Overflow -->
+    <SolidColorBrush x:Key="ToolBar_Overflow_BackgroundBrush" Color="#DCE0EC" />
+    <SolidColorBrush x:Key="ToolBar_Overflow_ForegroundBrush" Color="#1B293E" />
+    <SolidColorBrush x:Key="ToolBar_Overflow_DisabledBackgroundBrush" Color="#DCE0EC" />
+    <SolidColorBrush x:Key="ToolBar_Overflow_HighlightedBackgroundBrush" Color="#FDF4BF" />
+    <SolidColorBrush x:Key="ToolBar_Overflow_SubmenuBackgroundBrush" Color="#EAF0FF" />
+    <SolidColorBrush x:Key="ToolBar_Overflow_SubmenuBorderBrush" Color="#9BA7B7" />
+    
+    <!-- Thumb -->
+    <SolidColorBrush x:Key="ToolBar_Thumb_ForegroundBrush" Color="#60728C" />
+    
+    <!-- Tray -->
+    <SolidColorBrush x:Key="ToolBarTray_BackgroundBrush" Color="#D6DBE9" />
+</ResourceDictionary>
